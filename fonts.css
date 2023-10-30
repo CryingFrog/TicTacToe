@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Leimzy';
+    src: url(./fonts/Leimzy-Regular.otf) format(woff);
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url(./fonts/Barlow-elasticc.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Barlowfold';
+    src: url(./fonts/Barlowfold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Grotesk';
+    src: url(./fonts/BDOGrotesk-VF.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'GAILA';
+    src: url(./fonts/Berzulis-GAILA-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Pizus';
+    src: url(./fonts/Berzulis-PIZIUS.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Betatron';
+    src: url(./fonts/Betatron-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Centaury';
+    src: url(./fonts/Centaury-Display.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Conf';
+    src: url(./fonts/conf_46-70.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Crystal';
+    src: url(./fonts/Crystal-regular_IMoltsanov.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'DTG';
+    src: url(./fonts/DTGetaiGroteskDisplay-Black.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Escarbeau';
+    src: url(./fonts/Escabeau-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Gensco';
+    src: url(./fonts/GENSCO.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'GTL';
+    src: url(./fonts/GTL001-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Hellplague';
+    src: url(./fonts/hellplague.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Jessen';
+    src: url(./fonts/Jessen-Mittel14.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Kulope';
+    src: url(./fonts/KUPOLE-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'lcmogi';
+    src: url(./fonts/lcmogi-vf.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Leimzy';
+    src: url(./fonts/Leimzy-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Linea';
+    src: url(./fonts/Linea.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Lobular';
+    src: url(./fonts/Lobular-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Maizus';
+    src: url(./fonts/MaziusDisplay-ExtraItalicBold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Phosphene';
+    src: url(./fonts/PhospheneFont-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Reg';
+    src: url(./fonts/RegStandard.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Revival';
+    src: url(./fonts/revival.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Saint';
+    src: url(./fonts/Saint\ Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Guilt';
+    src: url(./fonts/SansGuiltWafer.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Singler';
+    src: url(./fonts/Sniglet\ Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Squared';
+    src: url(./fonts/SquaredShadow.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Superdot';
+    src: url(./fonts/Super\ dot.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Typefesse';
+    src: url(./fonts/Typefesse_Claire-Obscure.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Zaltys';
+    src: url(./fonts/ZALTYS-Regular.ttf) format('opentype');
+}

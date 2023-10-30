@@ -1,0 +1,210 @@
+:root{
+    --background-color: #b2c7f4;
+    --text: #000000;
+}
+
+*{
+    font-weight: normal;
+    color: var(--text);
+}
+
+*:focus {
+    outline: none;
+}
+
+body{
+    padding-bottom: 20px;
+}
+
+#menu,
+.introBackground{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.introBackground span{
+    margin: 0;
+}
+
+.greetings{
+    font-size: 4em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.instructions{
+    font-size: 2em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.inputName{
+    font-size: 4em;
+    width: 50%;
+    min-width: 200px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    background-color: var(--background-color);
+    color: var(--text);
+    border: solid 1.5px var(--text);
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 1.5em;
+    padding: 0.7em;
+    transition: 250ms;
+}
+
+.btn:hover,
+.btn2:hover{
+    background-color: var(--text);
+    color: var(--background-color);   
+}
+
+.names{
+    text-align: center;
+}
+
+.blur{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--background-color);
+    cursor: pointer;
+}
+
+.inputName{
+    border: 0;
+    border-bottom: 1px solid var(--text);
+    background-color: var(--background-color);
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+#playArea{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 30px;
+}
+
+#board{
+    background-color: var(--text);
+    display: grid;
+    width: clamp(150px, 90vw, 700px);
+    height: clamp(150px, 90vw, 700px);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3px;
+    grid-auto-rows: auto;
+}
+
+#boardButtons{
+    width: clamp(150px, 90vw, 700px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.cell{
+    aspect-ratio: 1 / 1;
+    background-color: var(--background-color);
+    border: 0;
+    font-size: 5em;
+    cursor: pointer;
+}
+
+.btn2{
+    background-color: var(--background-color);
+    border: var(--text) 1px solid;
+    border-radius: 10px;
+    padding: 0.4em;
+    font-size: 2em;
+    cursor: pointer;
+    transition: 250ms;
+    vertical-align:bottom;
+}
+
+.winText,
+.txtWinner{
+    margin: 0;
+    font-size: 6em;
+    text-align: center;
+}
+
+.winText{
+    margin-top: 20vh;
+}
+
+#ai{
+    position: relative;
+}
+
+#ai:hover::after{
+    content: "Let him win, he is not very good";
+    position: absolute;
+    overflow: visible;
+    top: 80px;
+    left: 0;
+    color: var(--text);
+}
+
+@media (max-width: 550px) {
+    body{
+        padding: 0;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+    .greetings{
+        font-size: 3em;
+    }
+    .instructions{
+        font-size: 1.5em;
+    }
+    .inputName{
+        font-size: 2em;
+    }
+    .introBackground{
+        justify-content: flex-start;
+        padding-top: 150px;    
+    }
+    .btn{
+        font-size: 1.5em;    
+    }
+    .names{
+        font-size: 1em;
+    }
+    .winText, 
+    .txtWinner{
+        font-size: 3em;
+    }
+}

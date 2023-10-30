@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="shortcut icon" href="favicon.svg">
+    <script src="script.js" defer></script>
+</head>
+<body id="body">
+    <div id="menu" class="menu">
+        <h1 class="title" onclick="resset()"><span id="Tic">Tic</span><br><span id="Tac">Tac</span><br><span id="Toe">Toe</span></h1>
+        <div class="buttons">
+            <button id="twoPlayer" class="btn" onclick="twoPlayer()">Two Players</button>
+            <button id="ai" class="btn" onclick="ai()">Play with Jeff</button>
+        </div>
+    </div>
+    
+    <div id="playArea" class="playArea">
+        <div id="boardButtons" class="boardButtons">
+            <button id="resset" class="resset btn2" onclick="resset()">Exit</button>
+            <h2 id="names" class="names"></h2>
+            <button id="restart" class="restart btn2" onclick="reset()">Restart</button>
+        </div>
+    
+        <div id="board">
+            <button id="0" class="cell"></button>
+            <button id="1" class="cell"></button>
+            <button id="2" class="cell"></button>
+            <button id="3" class="cell"></button>
+            <button id="4" class="cell"></button>
+            <button id="5" class="cell"></button>
+            <button id="6" class="cell"></button>
+            <button id="7" class="cell"></button>
+            <button id="8" class="cell"></button>
+        </div>
+    </div>
+    
+</body>
+</html>
